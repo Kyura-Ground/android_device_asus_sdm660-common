@@ -1,2 +1,7 @@
 # Allow thermal-engine to read files in /sys
 r_dir_file(thermal-engine, sysfs)
+
+# The LCD thermal monitor traverses the LED class and updates the backlight limit.
+r_dir_file(thermal-engine, sysfs_leds)
+r_dir_file(thermal-engine, sysfs_graphics)
+allow thermal-engine sysfs_graphics:file w_file_perms;
