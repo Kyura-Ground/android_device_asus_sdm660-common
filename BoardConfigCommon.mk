@@ -81,9 +81,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm660
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
-# Media
-TARGET_USES_ION := true
-
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
 
