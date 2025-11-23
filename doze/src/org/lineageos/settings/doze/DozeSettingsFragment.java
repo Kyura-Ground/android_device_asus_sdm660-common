@@ -24,12 +24,12 @@ import android.os.Handler;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
 import com.android.settingslib.widget.MainSwitchPreference;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 public class DozeSettingsFragment
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends SettingsBasePreferenceFragment implements Preference.OnPreferenceChangeListener {
     private SwitchPreferenceCompat mWakeOnGesturePreference;
     private SwitchPreferenceCompat mPickUpPreference;
     private SwitchPreferenceCompat mHandwavePreference;
