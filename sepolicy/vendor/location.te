@@ -1,0 +1,2 @@
+# Allow the vendor location daemon to discover the framework AIDL sensor service.
+allow location fwk_sensor_service:service_manager find;
