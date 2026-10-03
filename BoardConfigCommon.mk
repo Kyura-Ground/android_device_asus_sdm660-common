@@ -115,7 +115,7 @@ ifeq (,$(filter true, $(WITHOUT_RESERVED_SIZE) $(WITH_GAPPS)))
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1000000000
 endif
 
-include vendor/infinity/config/BoardConfigReservedSize.mk
+include vendor/lineage/config/BoardConfigReservedSize.mk
 
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
