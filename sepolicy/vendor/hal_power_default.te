@@ -1,4 +1,4 @@
-# Allow powerhal to read/write to dt2w node
+# Allow Power HAL to update the touchscreen gesture node.
 allow hal_power_default proc_touchpanel:dir r_dir_perms;
 allow hal_power_default proc_touchpanel:file rw_file_perms;
 
