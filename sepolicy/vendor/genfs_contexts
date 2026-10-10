@@ -1,5 +1,4 @@
 # Double tap to wake
-genfscon proc /touchpanel               u:object_r:proc_touchpanel:s0
 genfscon proc /tpd_gesture              u:object_r:proc_touchpanel:s0
 
 # Graphics
